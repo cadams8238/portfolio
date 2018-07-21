@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#130E13;}
+	.st1{fill:#537F73;}
+	.st2{fill:#F39F53;}
+	.st3{fill:#E9CBB6;}
+	.st4{fill:#101C27;}
+	.st5{fill:#E66F50;}
+	.st6{fill:#336969;}
+	.st7{fill:none;stroke:#F39F53;stroke-width:6;stroke-miterlimit:10;}
+	.st8{fill:#0F0D0F;}
+	.st9{fill:#192423;}
+	.st10{fill:none;stroke:#F39F53;stroke-width:3;stroke-miterlimit:10;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#E9CBB6;}
+	.st12{fill:#101C27;fill-opacity:0.55;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#101C27;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#E9CBB6;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#E9CBB6;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st13" cx="49" cy="51" r="43.5"/>
+	<g>
+		<path class="st15" d="M66.6,38.2L66.6,38.2l-35.2,0v0c-7.7,0.1-14,6.4-14,14.2c0,7.8,6.4,14.2,14.2,14.2c4.1,0,7.8-1.7,10.4-4.5
+			h13.4c2.6,2.8,6.3,4.5,10.4,4.5c7.8,0,14.2-6.4,14.2-14.2C80,44.8,74.1,38.6,66.6,38.2z"/>
+		<g>
+			<ellipse transform="matrix(0.9086 -0.4176 0.4176 0.9086 -15.1278 34.6929)" class="st15" cx="71.7" cy="51.9" rx="2" ry="2"/>
+			<ellipse transform="matrix(0.9086 -0.4176 0.4176 0.9086 -17.6542 33.1083)" class="st15" cx="66.8" cy="56.9" rx="2" ry="2"/>
+			<ellipse transform="matrix(0.9086 -0.4176 0.4176 0.9086 -13.5981 32.1402)" class="st15" cx="66.7" cy="47.1" rx="2" ry="2"/>
+			<ellipse transform="matrix(0.9086 -0.4176 0.4176 0.9086 -16.1245 30.5556)" class="st15" cx="61.8" cy="52.1" rx="2" ry="2"/>
+		</g>
+		<line class="st15" x1="43.2" y1="55.2" x2="47.1" y2="55.2"/>
+		<line class="st15" x1="50.6" y1="55.2" x2="54.5" y2="55.2"/>
+		<polygon class="st15" points="38.3,49.8 33.1,49.8 33.1,44.7 29,44.7 29,49.8 23.9,49.8 23.9,54 29,54 29,59.1 33.1,59.1 33.1,54 
+			38.3,54 		"/>
+	</g>
+</g>
+</svg>

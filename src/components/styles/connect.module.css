@@ -1,0 +1,38 @@
+.backgroundImage {
+    background: url("../../images/connect.svg") no-repeat top;
+    height: 100vh;
+    background-size: cover;
+}
+
+.firstHeading {
+    padding-top: 190px;
+}
+
+.heading {
+    font-family : "museo", serif;
+    font-size : 100px;
+    line-height : 64px;
+    letter-spacing : -3.5px;
+    color : #E66F50;
+    margin: 0;
+    line-height: .7;
+    text-align: center;
+}
+
+.icons {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.supportingText p {
+    font-family: "museo", serif;
+    font-style : italic;
+    font-weight: 500;
+    font-size : 28px;
+    color : #F39F53;
+    margin: 0;
+    text-align: center;
+}

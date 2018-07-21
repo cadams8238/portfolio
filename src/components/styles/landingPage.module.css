@@ -1,0 +1,82 @@
+.backgroundImage {
+    background: url("../../images/landing-page.svg") no-repeat top;
+    height: 155vh;
+    background-size: cover;
+
+}
+
+nav li {
+    float: right;
+    color: #e9cbb6;
+    margin-top: 25px;
+    margin-right: 65px;
+    font-size: 1.4em;
+}
+
+nav ul {
+    list-style: none;
+    /* border clears weird space at top of viewport created by html tag */
+    margin-top: 0;
+    border: 1px solid #130e13;
+}
+
+header p {
+    margin: 0;
+}
+
+.hello {
+    font-family: "museo", serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size : 70px;
+    color : #F39F53;
+    margin-top: 190px;
+
+    position: relative;
+    left: 36%;
+    top: 25px;
+}
+
+.myNameIs {
+    font-family : "museo sans", sans-serif;
+    font-size : 30px;
+    letter-spacing : -1.23px;
+    color : #E9CBB6;
+    text-transform: uppercase;
+
+    position: relative;
+    left: 36%;
+    top: 20px;
+}
+
+.nameAndDesc {
+    position: relative;
+    left: 26.5%;
+}
+
+.nameAndDesc h1 {
+    margin: 0;
+    line-height: .7;
+}
+
+.nameHeading {
+    font-family: "museo", serif;
+    font-size : 135px;
+    letter-spacing : -4.9px;
+    color : #E66F50;
+    font-weight: 900;
+}
+
+.description {
+    font-family : "museo sans", sans-serif;
+    font-size : 30px;
+    letter-spacing : -1.23px;
+    color : #E9CBB6;
+    margin: 0;
+    line-height: 1;
+
+}
+
+.firstDesc {
+    padding-top: 75px;
+}
