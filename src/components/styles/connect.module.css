@@ -1,11 +1,11 @@
 .backgroundImage {
     background: url("../../images/connect.svg") no-repeat top;
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
 }
 
 .firstHeading {
-    padding-top: 190px;
+    padding-top: 210px;
 }
 
 .heading {

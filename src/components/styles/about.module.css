@@ -1,12 +1,12 @@
 .backgroundImage {
     background: url("../../images/about.svg") no-repeat top;
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
 }
 
 .flexGrid {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
 }
 
@@ -84,4 +84,21 @@
 
 .iconColumn {
     flex: 1;
+}
+
+.artIconLabel {
+    padding-left: 35px;
+}
+
+.animationIconLabel {
+    position: relative;
+    left: -15px;
+}
+
+.forestIconLabel {
+    padding-left: 7px;
+}
+
+.travelIconLabel {
+    padding-left: 16px;
 }

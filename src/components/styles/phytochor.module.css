@@ -1,0 +1,41 @@
+.backgroundImage {
+    background: url("../../images/phytochor_project1.svg") no-repeat top;
+    height: 110vh;
+    background-size: cover;
+    position: relative;
+}
+
+.allText {
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    padding: 0 25px;
+}
+
+.title {
+    font-family : "museo", serif;
+    font-size : 72px;
+    letter-spacing : -2.52px;
+    color : #E66F50;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-family : "museo sans", sans-serif;
+    font-size : 20px;
+    font-weight: 300;
+    letter-spacing : -0.84px;
+    color : #E9CBB6;
+    margin-bottom: 50px;
+}
+
+.roles {
+    font-family : "museo sans", sans-serif;
+    font-style : italic;
+    font-weight: 500;
+    font-size : 20px;
+    letter-spacing : -0.84px;
+    color : #E66F50;
+    margin-top: 75px;
+}

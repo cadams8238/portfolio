@@ -51,7 +51,7 @@ export default function About() {
                             src={art}
                             alt="art icon"
                         />
-                        <p className={styles.iconLabel}>Art</p>
+                        <p className={[styles.iconLabel, styles.artIconLabel].join(' ')}>Art</p>
                     </li>
 
                     <li className={styles.iconColumn}>
@@ -59,7 +59,7 @@ export default function About() {
                             src={animation}
                             alt="animation icon"
                         />
-                        <p className={styles.iconLabel}>Stop Motion</p>
+                        <p className={[styles.iconLabel, styles.animationIconLabel].join(' ')}>Stop Motion</p>
                     </li>
 
                     <li className={styles.iconColumn}>
@@ -67,7 +67,7 @@ export default function About() {
                             src={forest}
                             alt="forest icon"
                         />
-                        <p className={styles.iconLabel}>Forests</p>
+                        <p className={[styles.iconLabel, styles.forestIconLabel].join(' ')}>Forests</p>
                     </li>
 
                     <li className={styles.iconColumn}>
@@ -83,7 +83,7 @@ export default function About() {
                             src={travel}
                             alt="travel icon"
                         />
-                        <p className={styles.iconLabel}>Travel</p>
+                        <p className={[styles.iconLabel, styles.travelIconLabel].join(' ')}>Travel</p>
                     </li>
 
                     <li className={styles.iconColumn}>

@@ -1,0 +1,11 @@
+.button {
+    width: 125px;
+    height: 35px;
+    background-color: #f39f53;
+    border: none;
+    font-family: 'museo sans', sans-serif;
+    font-size : 12px;
+    letter-spacing : 2.4px;
+    color : #130E13;
+    text-transform: uppercase;
+}
