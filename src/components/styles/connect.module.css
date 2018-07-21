@@ -19,12 +19,26 @@
     text-align: center;
 }
 
+.allHeaderText h2:last-child {
+    margin-bottom: 70px;
+}
+
 .icons {
-    width: 60%;
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 50px auto;
+}
+
+.iconImg {
+    width: 150px;
+    height: 150px;
+}
+
+.linkedin {
+    width: 135px;
+    height: 135px;
 }
 
 .supportingText p {
@@ -35,4 +49,9 @@
     color : #F39F53;
     margin: 0;
     text-align: center;
+}
+
+.supportingText p:first-child {
+    margin-top: 75px;
+
 }
