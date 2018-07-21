@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+// import { HashLink } from 'react-router-hash-link';
 import styles from './styles/landingPage.module.css';
 
 export default function LandingPage() {
@@ -7,9 +9,23 @@ export default function LandingPage() {
         <div className={styles.backgroundImage}>
             <nav role={styles.navigation}>
                 <ul>
-                    <li>Projects</li>
-                    <li>About</li>
-                    <li>Connect</li>
+                    <li>
+                        {/* <Link to="/projects"> */}
+                            Projects
+                        {/* </Link> */}
+                    </li>
+
+                    <li>
+                        {/* <Link to="/about"> */}
+                            About
+                        {/* </Link> */}
+                    </li>
+
+                    <li>
+                        {/* <Link to="/connect"> */}
+                            Connect
+                        {/* </Link> */}
+                    </li>
                 </ul>
             </nav>
             <header>

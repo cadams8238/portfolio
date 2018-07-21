@@ -2,7 +2,6 @@
     background: url("../../images/landing-page.svg") no-repeat top;
     height: 155vh;
     background-size: cover;
-
 }
 
 nav li {
@@ -10,7 +9,10 @@ nav li {
     color: #e9cbb6;
     margin-top: 25px;
     margin-right: 65px;
-    font-size: 1.4em;
+    font-family : "museo sans", sans-serif;
+    font-size : 22px;
+    font-weight: 500;
+    color : #E9CBB6;
 }
 
 nav ul {
