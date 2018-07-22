@@ -11,20 +11,21 @@ import Connect from './components/connect';
 class App extends Component {
   render() {
     return (
-        // <HashRouter>
-        //     <React.Fragment>
-        //         <Route path="/" component={LandingPage} />
-        //         <Route path="/projects" component={Phytochor} />
-        //         <Route path="/about" component={About} />
-        //         <Route path="/connect" component={Connect} />
-        //     </React.Fragment>
-        // </HashRouter>
-        <React.Fragment>
-            <LandingPage />
-            <Phytochor />
-            <About />
-            <Connect />
-        </React.Fragment>
+        <HashRouter>
+            {/* <React.Fragment>
+                <Route path="/" component={LandingPage} />
+                <Route path="/projects" component={Phytochor} />
+                <Route path="/about" component={About} />
+                <Route path="/connect" component={Connect} />
+            </React.Fragment> */}
+
+            <React.Fragment>
+                <LandingPage />
+                <Phytochor />
+                <About />
+                <Connect />
+            </React.Fragment>
+        </HashRouter>
     );
   }
 }
