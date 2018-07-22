@@ -6,7 +6,7 @@ import styles from './styles/landingPage.module.css';
 export default function LandingPage() {
 
     return (
-        <div className={styles.backgroundImage}>
+        <div className={styles.background}>
             <nav role={styles.navigation}>
                 <ul>
                     <li>

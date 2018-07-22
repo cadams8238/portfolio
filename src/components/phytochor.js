@@ -6,6 +6,7 @@ export default function Phytochor() {
 
     return (
         <div className={styles.backgroundImage}>
+            <div className={styles.circle}></div>
             <section className={styles.allText}>
                 <h2 className={styles.title}>
                     Phytochor

@@ -1,19 +1,18 @@
-.backgroundImage {
-    background: url("../../images/landing-page.svg") no-repeat top;
-    height: 155vh;
+.background {
+    /* background: url("../../images/landing-page.svg") no-repeat top;
     background-size: cover;
+    height: 155vh; */
     position: relative;
 }
 
 nav li {
     float: right;
     color: #e9cbb6;
-    margin-top: 20px;
-    margin-right: 65px;
+    /* margin-top: 20px;
+    margin-right: 65px; */
     font-family : "museo sans", sans-serif;
-    font-size : 22px;
+    /* font-size : 22px; */
     font-weight: 500;
-    color : #E9CBB6;
 }
 
 nav ul {
@@ -28,30 +27,30 @@ header p {
     font-family: "museo", serif;
     font-style: italic;
     font-weight: 700;
-    font-size : 70px;
+    /* font-size : 70px; */
     color : #F39F53;
 
     position: absolute;
-    left: 36%;
-    top: 20%;
+    /* left: 36%;
+    top: 20%; */
 }
 
 .myNameIs {
     font-family : "museo sans", sans-serif;
-    font-size : 27px;
+    /* font-size : 27px; */
     letter-spacing : -1.23px;
     color : #E9CBB6;
     text-transform: uppercase;
 
     position: absolute;
-    left: 36%;
-    top: 27%;
+    /* left: 36%;
+    top: 27%; */
 }
 
 .nameAndDesc {
     position: absolute;
-    left: 26.5%;
-    top: 28.5%;
+    /* left: 26.5%;
+    top: 28.5%; */
 }
 
 .nameAndDesc h1 {
@@ -61,7 +60,7 @@ header p {
 
 .nameHeading {
     font-family: "museo", serif;
-    font-size : 135px;
+    /* font-size : 135px; */
     letter-spacing : -4.9px;
     color : #E66F50;
     font-weight: 900;
@@ -69,7 +68,7 @@ header p {
 
 .description {
     font-family : "museo sans", sans-serif;
-    font-size : 30px;
+    /* font-size : 30px; */
     letter-spacing : -1.23px;
     color : #E9CBB6;
     margin: 0;
@@ -77,6 +76,176 @@ header p {
 
 }
 
-.firstDesc {
+/* .firstDesc {
     padding-top: 75px;
+} */
+
+
+@media screen and (max-width: 450px) {
+    .background {
+        background: url("../../images/mobile-landingPage.svg") no-repeat top;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    nav li {
+        margin-right: 15px;
+    }
+
+    .hello {
+        font-size : 42px;
+        left: 25%;
+        top: 31%;
+    }
+
+    .myNameIs {
+        font-size : 19px;
+        left: 25%;
+        top: 38%;
+    }
+
+    .nameAndDesc {
+        left: 10%;
+        top: 39.5%;
+    }
+
+    .nameHeading {
+        font-size : 80px;
+    }
+
+    .description {
+        font-size : 19px;
+    }
+
+    .firstDesc {
+        padding-top: 35px;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    .background {
+        background: url("../../images/mobile-landingPage.svg") no-repeat top;
+        background-size: cover;
+        height: 120vh;
+    }
+
+    nav li {
+        font-size : 18px;
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+
+    .hello {
+        font-size : 48px;
+        left: 27%;
+        top: 30%;
+    }
+
+    .myNameIs {
+        font-size : 21px;
+        left: 27%;
+        top: 36%;
+    }
+
+    .nameAndDesc {
+        left: 10%;
+        top: 37%;
+    }
+
+    .nameHeading {
+        font-size : 100px;
+    }
+
+    .description {
+        font-size : 21px;
+    }
+
+    .firstDesc {
+        padding-top: 35px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .background {
+        background: url("../../images/landing-page.svg") no-repeat top;
+        background-size: cover;
+        height: 125vh;
+    }
+
+    .hello {
+        font-size : 50px;
+        left: 30%;
+        top: 26.5%;
+    }
+
+    .myNameIs {
+        font-size : 22px;
+        left: 30%;
+        top: 33%;
+    }
+
+    .nameAndDesc {
+        left: 18%;
+        top: 34%;
+    }
+
+    .nameHeading {
+        font-size : 105px;
+    }
+
+    .description {
+        font-size : 24px;
+    }
+
+    /* .firstDesc {
+        padding-top: 75px;
+    } */
+
+}
+
+@media screen and (min-width: 900px) {
+    .background {
+        background: url("../../images/landing-page.svg") no-repeat top;
+        background-size: cover;
+        height: 155vh;
+    }
+
+    nav li {
+        font-size : 22px;
+        margin-top: 20px;
+        margin-right: 65px;
+    }
+
+    .hello {
+        font-size : 70px;
+        left: 36%;
+        top: 20%;
+    }
+
+    .myNameIs {
+        font-size : 27px;
+        left: 36%;
+        top: 27%;
+    }
+
+    .nameAndDesc {
+        left: 26.5%;
+        top: 28.5%;
+    }
+
+    .nameHeading {
+        font-size : 135px;
+    }
+
+    .description {
+        font-size : 30px;
+    }
+
+    .firstDesc {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
