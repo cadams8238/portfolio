@@ -9,8 +9,8 @@
     width: 40%;
     position: absolute;
     top: 15%;
-    left: 50%;
-    padding: 0 25px;
+    /* left: 50%; */
+    /* padding: 0 25px; */
 }
 
 .title {
@@ -38,4 +38,10 @@
     letter-spacing : -0.84px;
     color : #E66F50;
     margin-top: 75px;
+}
+
+@media screen and (max-width: 450px) {
+    .allText {
+        padding: 0;
+    }
 }
