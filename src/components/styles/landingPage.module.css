@@ -195,12 +195,6 @@ header p {
         height: 155vh;
     }
 
-    /* nav li {
-        font-size : 22px;
-        margin-top: 20px;
-        margin-right: 65px;
-    } */
-
     .hello {
         font-size : 70px;
         left: 36%;
@@ -228,6 +222,50 @@ header p {
 
     .firstDesc {
         padding-top: 75px;
+    }
+
+    .circle1 {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #537f73;
+      position: absolute;
+      top: 15%;
+      left: 19%;
+      mix-blend-mode: screen;
+    }
+
+    .circle2 {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #336969;
+      position: absolute;
+      top: 60%;
+      right: 14%;
+      mix-blend-mode: screen;
+    }
+
+    .circle3 {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #537f73;
+      position: absolute;
+      top: 57%;
+      right: 11%;
+      mix-blend-mode: screen;
+    }
+
+    .circle4 {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background-color: #336969;
+      position: absolute;
+      top: 82%;
+      left: -20px;
+      mix-blend-mode: screen;
     }
 }
 
