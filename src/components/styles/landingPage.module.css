@@ -3,21 +3,10 @@
     background-size: cover;
     height: 155vh; */
     position: relative;
+    z-index: -1;
 }
 
-nav li {
-    float: right;
-    color: #e9cbb6;
-    /* margin-top: 20px;
-    margin-right: 65px; */
-    font-family : "museo sans", sans-serif;
-    /* font-size : 22px; */
-    font-weight: 500;
-}
 
-nav ul {
-    list-style: none;
-}
 
 header p {
     margin: 0;
@@ -88,25 +77,21 @@ header p {
         height: 100vh;
     }
 
-    nav li {
-        margin-right: 15px;
-    }
-
     .hello {
         font-size : 42px;
         left: 25%;
-        top: 31%;
+        top: 29%;
     }
 
     .myNameIs {
         font-size : 19px;
         left: 25%;
-        top: 38%;
+        top: 36%;
     }
 
     .nameAndDesc {
         left: 10%;
-        top: 39.5%;
+        top: 37.5%;
     }
 
     .nameHeading {
@@ -129,27 +114,27 @@ header p {
         height: 120vh;
     }
 
-    nav li {
+    /* nav li {
         font-size : 18px;
         margin-top: 15px;
         margin-right: 25px;
-    }
+    } */
 
     .hello {
         font-size : 48px;
-        left: 27%;
-        top: 30%;
+        left: 28%;
+        top: 35%;
     }
 
     .myNameIs {
         font-size : 21px;
-        left: 27%;
-        top: 36%;
+        left: 28%;
+        top: 41%;
     }
 
     .nameAndDesc {
-        left: 10%;
-        top: 37%;
+        left: 12%;
+        top: 42%;
     }
 
     .nameHeading {
@@ -210,11 +195,11 @@ header p {
         height: 155vh;
     }
 
-    nav li {
+    /* nav li {
         font-size : 22px;
         margin-top: 20px;
         margin-right: 65px;
-    }
+    } */
 
     .hello {
         font-size : 70px;

@@ -19,7 +19,8 @@ export default function Phytochor() {
                     veniam, quis nostrud exerci tation ullamcorper
                     suscipit
                 </p>
-                <Button label="See Details"/>
+                <Button label="Live App"/>
+                <Button label="See Code" className={styles.button}/>
                 <p className={styles.roles}>My roles:  Fullstack Developer, Illustrator</p>
             </section>
         </div>

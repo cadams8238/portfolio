@@ -7,27 +7,7 @@ export default function LandingPage() {
 
     return (
         <div className={styles.background}>
-            <nav role={styles.navigation}>
-                <ul>
-                    <li>
-                        {/* <Link to="/projects"> */}
-                            Projects
-                        {/* </Link> */}
-                    </li>
-
-                    <li>
-                        {/* <Link to="/about"> */}
-                            About
-                        {/* </Link> */}
-                    </li>
-
-                    <li>
-                        {/* <Link to="/connect"> */}
-                            Connect
-                        {/* </Link> */}
-                    </li>
-                </ul>
-            </nav>
+            
             <header>
                 <p className={styles.hello}>Hello!</p>
                 <p className={styles.myNameIs}>My name is</p>

@@ -1,21 +1,20 @@
 .backgroundImage {
-    background: url("../../images/phytochor_project1.svg") no-repeat top;
+    /* background: url("../../images/phytochor_project1.svg") no-repeat top; */
     height: 110vh;
     background-size: cover;
     position: relative;
 }
 
-.allText {
+/* .allText {
     width: 40%;
     position: absolute;
     top: 15%;
-    /* left: 50%; */
-    /* padding: 0 25px; */
-}
+    left: 50%;
+} */
 
 .title {
     font-family : "museo", serif;
-    font-size : 72px;
+    /* font-size : 72px; */
     letter-spacing : -2.52px;
     color : #E66F50;
     margin-bottom: 5px;
@@ -23,25 +22,90 @@
 
 .description {
     font-family : "museo sans", sans-serif;
-    font-size : 20px;
+    /* font-size : 20px; */
     font-weight: 300;
     letter-spacing : -0.84px;
     color : #E9CBB6;
     margin-bottom: 50px;
 }
 
+.button {
+  margin-left: 30px;
+}
+
 .roles {
     font-family : "museo sans", sans-serif;
     font-style : italic;
     font-weight: 500;
-    font-size : 20px;
+    /* font-size : 20px; */
     letter-spacing : -0.84px;
     color : #E66F50;
     margin-top: 75px;
 }
 
 @media screen and (max-width: 450px) {
-    .allText {
-        padding: 0;
-    }
+  .allText {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size : 50px;
+  }
+
+  .description {
+    font-size : 19px;
+  }
+
+  .roles {
+    font-size : 19px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .allText {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size : 65px;
+  }
+
+  .description {
+    font-size : 19px;
+  }
+
+  .roles {
+    font-size : 19px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .allText {
+    width: 60%;
+  }
+
+  .title {
+      font-size: 72px;
+  }
+
+  .description {
+      font-size: 20px;
+  }
+
+  .roles {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .allText {
+      width: 40%;
+      position: absolute;
+      top: 15%;
+      left: 50%;
+  }
 }
