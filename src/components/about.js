@@ -10,13 +10,11 @@ import lettering from '../images/interests_lettering.svg';
 import travel from '../images/interests_travel.svg';
 import game from '../images/interests_game.svg';
 
-const About = React.forwardRef((props, ref) => {
+export default function About() {
 
     return (
-        <div ref={ref}
-          className={styles.backgroundImage}
-        >
-            <section className={styles.flexGridContent}>
+        <div className={styles.backgroundImage}>
+            <section className={styles.flexGridContent} id="about">
                 <div className={[styles.col, styles.allText].join(' ')}>
                     <h2 className={styles.header}>About Me</h2>
                     <p className={styles.desc}>
@@ -99,6 +97,4 @@ const About = React.forwardRef((props, ref) => {
             </section>
         </div>
     );
-})
-
-export default About;
+}

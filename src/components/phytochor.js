@@ -7,7 +7,9 @@ import phytochor from '../images/projects_phytochor-screenshots.svg';
 export default function Phytochor() {
 
     return (
-      <div className={styles.backgroundImage}>
+      <div className={styles.backgroundImage}
+        id="projects"
+      >
         <div className={styles.projectBackground}></div>
         <img className={styles.projectPhoto}
           src={phytochor}

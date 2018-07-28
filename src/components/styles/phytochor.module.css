@@ -1,6 +1,6 @@
 .backgroundImage {
-    height: 110vh;
-    background-size: cover;
+    /* height: 110vh; */
+    /* background-size: cover; */
     position: relative;
 }
 
@@ -49,11 +49,11 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 35px;
+    padding-top: 50px;
   }
 
   .projectBackground {
-    /* margin-top: 10px; */
+    margin-top: 25px;
     width: 100vw;
     height: 260px;
     z-index: -1;
@@ -79,6 +79,10 @@
 }
 
 @media screen and (min-width: 451px) {
+
+  .backgroundImage {
+    height: 120vh;
+  }
 
   .projectPhoto {
     width: 50%;
@@ -115,6 +119,10 @@
 }
 
 @media screen and (min-width: 600px) {
+
+  .backgroundImage {
+    height: 140vh;
+  }
 
   .projectPhoto {
     width: 50%;

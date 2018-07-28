@@ -170,7 +170,7 @@
 
 @media screen and (min-width: 451px) {
     .backgroundImage {
-        height: 225vh;
+        height: 195vh;
     }
 
     .flexGridContent {
@@ -192,7 +192,7 @@
     .headshot {
         height: 80%;
         width: 80%;
-        padding-top: 300px;
+        padding-top: 120px;
         padding-left: 50px;
     }
 
@@ -233,7 +233,7 @@
 
 @media screen and (min-width: 600px) {
     .backgroundImage {
-        height: 255vh;
+        height: 215vh;
     }
 
     .allText {
@@ -253,7 +253,7 @@
     .headshot {
         height: 60%;
         width: 60%;
-        padding-top: 360px;
+        padding-top: 80px;
         padding-left: 130px;
     }
 

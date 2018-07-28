@@ -6,9 +6,11 @@ import email from '../images/contact_email.svg';
 import linkedin from '../images/contact_linkedin.svg';
 
 
-export default function LandingPage() {
+export default function Connect() {
     return (
-        <div className={styles.backgroundImage}>
+        <div className={styles.backgroundImage}
+          id="connect"
+        >
           <div className={styles.circle1}></div>
           <div className={styles.circle2}></div>
           <div className={styles.circle3}></div>
