@@ -25,8 +25,16 @@ export default function Phytochor() {
             veniam, quis nostrud exerci tation ullamcorper
             suscipit
           </p>
-          <Button label="Live App"/>
-          <Button label="See Code" className={styles.button}/>
+          <a href="https://garden-client.herokuapp.com/">
+            <Button label="Live App"
+              className={styles.buttonLinks}
+            />
+          </a>
+          <a href="https://github.com/cadams8238/Garden-app_client">
+            <Button label="See Code"
+              className={[styles.button, styles.buttonLinks].join(' ')}
+            />
+          </a>
           <p className={styles.roles}>My roles:  Fullstack Developer, Illustrator</p>
         </section>
       </div>

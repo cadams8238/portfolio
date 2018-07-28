@@ -28,6 +28,11 @@
   margin-left: 30px;
 }
 
+.buttonLinks:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px white;
+}
+
 .roles {
     font-family : "museo sans", sans-serif;
     font-style : italic;
