@@ -1,20 +1,16 @@
 .backgroundImage {
-    /* background: url("../../images/phytochor_project1.svg") no-repeat top; */
     height: 110vh;
     background-size: cover;
     position: relative;
 }
 
-/* .allText {
-    width: 40%;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-} */
+.projectBackground {
+  background-color: #101c27;
+  position: absolute;
+}
 
 .title {
     font-family : "museo", serif;
-    /* font-size : 72px; */
     letter-spacing : -2.52px;
     color : #E66F50;
     margin-bottom: 5px;
@@ -22,7 +18,6 @@
 
 .description {
     font-family : "museo sans", sans-serif;
-    /* font-size : 20px; */
     font-weight: 300;
     letter-spacing : -0.84px;
     color : #E9CBB6;
@@ -37,14 +32,30 @@
     font-family : "museo sans", sans-serif;
     font-style : italic;
     font-weight: 500;
-    /* font-size : 20px; */
     letter-spacing : -0.84px;
     color : #E66F50;
     margin-top: 75px;
 }
 
 @media screen and (max-width: 450px) {
+
+  .projectPhoto {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 35px;
+  }
+
+  .projectBackground {
+    /* margin-top: 10px; */
+    width: 100vw;
+    height: 260px;
+    z-index: -1;
+  }
+
   .allText {
+    padding-top: 15px;
     width: 80%;
     margin: 0 auto;
   }
@@ -63,9 +74,26 @@
 }
 
 @media screen and (min-width: 451px) {
+
+  .projectPhoto {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 160px;
+  }
+
+  .projectBackground {
+    margin-top: 100px;
+    width: 100vw;
+    height: 320px;
+    z-index: -1;
+  }
+
   .allText {
     width: 80%;
     margin: 0 auto;
+    padding-top: 30px;
   }
 
   .title {
@@ -83,8 +111,24 @@
 
 @media screen and (min-width: 600px) {
 
+  .projectPhoto {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 140px;
+  }
+
+  .projectBackground {
+    width: 100vw;
+    height: 350px;
+    z-index: -1;
+  }
+
   .allText {
     width: 60%;
+    padding-left: 40px;
+    padding-top: 40px;
   }
 
   .title {
@@ -101,6 +145,22 @@
 }
 
 @media screen and (min-width: 900px) {
+
+  .projectPhoto {
+    position: absolute;
+    width: 40%;
+    max-width: 500px;
+    top: 8%;
+    left: -50px;
+  }
+
+  .projectBackground {
+    width: 880px;
+    height: 880px;
+    border-radius: 50%;
+    top: -20%;
+    left: -280px;
+  }
 
   .allText {
       width: 40%;
