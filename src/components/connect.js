@@ -9,6 +9,11 @@ import linkedin from '../images/contact_linkedin.svg';
 export default function LandingPage() {
     return (
         <div className={styles.backgroundImage}>
+          <div className={styles.circle1}></div>
+          <div className={styles.circle2}></div>
+          <div className={styles.circle3}></div>
+          <div className={styles.circle4}></div>
+
             <div className={styles.allHeaderText}>
                 <h2 className={[styles.heading, styles.firstHeading].join(' ')}>Let's</h2>
                 <h2 className={styles.heading}>Connect</h2>

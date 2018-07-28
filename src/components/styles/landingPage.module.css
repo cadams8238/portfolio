@@ -224,6 +224,7 @@ header p {
         padding-top: 75px;
     }
 
+    /* upper left */
     .circle1 {
       width: 150px;
       height: 150px;
@@ -235,6 +236,7 @@ header p {
       mix-blend-mode: screen;
     }
 
+    /* lower right */
     .circle2 {
       width: 200px;
       height: 200px;
@@ -246,6 +248,7 @@ header p {
       mix-blend-mode: screen;
     }
 
+    /* upper right */
     .circle3 {
       width: 100px;
       height: 100px;
@@ -257,6 +260,7 @@ header p {
       mix-blend-mode: screen;
     }
 
+    /* lower left */
     .circle4 {
       width: 130px;
       height: 130px;

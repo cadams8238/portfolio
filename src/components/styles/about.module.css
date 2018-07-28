@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 450px) {
     .backgroundImage {
-        height: 150vh;
+        height: 170vh;
     }
 
     .flexGridContent {
@@ -170,7 +170,7 @@
 
 @media screen and (min-width: 451px) {
     .backgroundImage {
-        height: 150vh;
+        height: 190vh;
     }
 
     .flexGridContent {
@@ -233,7 +233,7 @@
 
 @media screen and (min-width: 600px) {
     .backgroundImage {
-        height: 140vh;
+        height: 220vh;
     }
 
     .allText {
