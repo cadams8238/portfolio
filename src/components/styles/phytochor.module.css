@@ -168,8 +168,8 @@
   }
 
   .projectBackground {
-    width: 880px;
-    height: 880px;
+    width: 830px;
+    height: 830px;
     border-radius: 50%;
     top: -20%;
     left: -280px;
@@ -180,5 +180,43 @@
       position: absolute;
       top: 15%;
       left: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .backgroundImage {
+    height: 100vh;
+  }
+
+  .projectPhoto {
+    top: 7%;
+    left: -5%;
+  }
+
+  .projectBackground {
+    top: -20%;
+    left: -280px;
+  }
+
+  .allText {
+      top: 15%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .backgroundImage {
+    height: 100vh;
+  }
+
+  .projectPhoto {
+    top: 10%;
+    left: 5%;
+  }
+
+  .projectBackground {
+    width: 1000px;
+    height: 1000px;
+    top: -15%;
+    left: -280px;
   }
 }

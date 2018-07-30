@@ -309,3 +309,21 @@
         margin-top: 70px;
     }
 }
+
+@media screen and (min-width: 1400px) {
+  .firstHeading {
+      padding-top: 280px;
+  }
+
+  .icons {
+      width: 40%;
+  }
+
+  .allHeaderText h2:last-child {
+      margin-bottom: 90px;
+  }
+
+  .supportingText p:first-child {
+      margin-top: 90px;
+  }
+}

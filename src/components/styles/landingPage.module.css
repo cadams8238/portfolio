@@ -270,5 +270,34 @@ header p {
 }
 
 @media screen and (min-width: 1200px) {
+  .hello {
+      left: 38%;
+      top: 21%;
+  }
 
+  .myNameIs {
+      left: 38%;
+      top: 27.5%;
+  }
+
+  .nameAndDesc {
+      left: 30%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .hello {
+      left: 41%;
+      top: 26.5%;
+  }
+
+  .myNameIs {
+      left: 41%;
+      top: 31%;
+  }
+
+  .nameAndDesc {
+      left: 35%;
+      top: 32%;
+  }
 }
