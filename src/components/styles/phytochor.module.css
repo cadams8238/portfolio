@@ -163,22 +163,22 @@
     position: absolute;
     width: 40%;
     max-width: 500px;
-    top: 8%;
+    top: 7%;
     left: -50px;
   }
 
   .projectBackground {
-    width: 830px;
-    height: 830px;
+    width: 800px;
+    height: 800px;
     border-radius: 50%;
-    top: -20%;
-    left: -280px;
+    top: -12%;
+    left: -270px;
   }
 
   .allText {
       width: 40%;
       position: absolute;
-      top: 15%;
+      top: 10%;
       left: 50%;
   }
 }
@@ -189,17 +189,17 @@
   }
 
   .projectPhoto {
-    top: 7 %;
+    top: 2%;
     left: -5%;
   }
 
   .projectBackground {
-    top: -20%;
+    top: -22%;
     left: -280px;
   }
 
   .allText {
-      top: 15%;
+      top: 10%;
   }
 }
 
