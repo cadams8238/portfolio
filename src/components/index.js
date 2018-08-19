@@ -10,9 +10,8 @@ import Connect from './connect';
 import styles from './styles/index.module.css';
 
 
-export default class Home extends React.Component {
+export default function Home() {
 
-  render() {
     return (
       <div>
         <nav>
@@ -43,5 +42,4 @@ export default class Home extends React.Component {
         <Connect />
       </div>
     );
-  }
 }

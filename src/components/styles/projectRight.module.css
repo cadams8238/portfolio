@@ -1,5 +1,222 @@
-.test {
-  color: white;
-  z-index: 1;
-  height: 100vh;
+.backgroundImage {
+    /* height: 110vh; */
+    /* background-size: cover; */
+    position: relative;
+}
+
+.projectBackground {
+  background-color: #101c27;
+  position: absolute;
+}
+
+.title {
+    font-family : "museo", serif;
+    letter-spacing : -2.52px;
+    color : #E66F50;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-family : "museo sans", sans-serif;
+    font-weight: 300;
+    letter-spacing : -0.84px;
+    color : #E9CBB6;
+    margin-bottom: 50px;
+}
+
+.button {
+  margin-left: 30px;
+}
+
+.buttonLinks:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px white;
+}
+
+.roles {
+    font-family : "museo sans", sans-serif;
+    font-style : italic;
+    font-weight: 500;
+    letter-spacing : -0.84px;
+    color : #E66F50;
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 450px) {
+
+  .projectPhoto {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .projectBackground {
+    margin-top: 25px;
+    width: 100vw;
+    height: 260px;
+    z-index: -1;
+  }
+
+  .allText {
+    padding-top: 15px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size : 50px;
+  }
+
+  .description {
+    font-size : 19px;
+  }
+
+  .roles {
+    font-size : 19px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+
+  .backgroundImage {
+    height: 120vh;
+  }
+
+  .projectPhoto {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 160px;
+  }
+
+  .projectBackground {
+    margin-top: 100px;
+    width: 100vw;
+    height: 320px;
+    z-index: -1;
+  }
+
+  .allText {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .title {
+    font-size : 65px;
+  }
+
+  .description {
+    font-size : 19px;
+  }
+
+  .roles {
+    font-size : 19px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .backgroundImage {
+    height: 140vh;
+  }
+
+  .projectPhoto {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 140px;
+  }
+
+  .projectBackground {
+    width: 100vw;
+    height: 350px;
+    z-index: -1;
+  }
+
+  .allText {
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+
+  .title {
+      font-size: 72px;
+  }
+
+  .description {
+      font-size: 20px;
+  }
+
+  .roles {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .projectPhoto {
+    position: absolute;
+    width: 40%;
+    max-width: 500px;
+    top: 7%;
+    right: -50px;
+  }
+
+  .projectBackground {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    top: -12%;
+    right: -270px;
+  }
+
+  .allText {
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    right: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .backgroundImage {
+    height: 100vh;
+  }
+
+  .projectPhoto {
+    top: 2%;
+    right: -5%;
+  }
+
+  .projectBackground {
+    top: -22%;
+    right: -280px;
+  }
+
+  .allText {
+      top: 10%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .backgroundImage {
+    height: 100vh;
+  }
+
+  .projectPhoto {
+    top: 10%;
+    right: 5%;
+  }
+
+  .projectBackground {
+    width: 1000px;
+    height: 1000px;
+    top: -15%;
+    right: -280px;
+  }
 }
