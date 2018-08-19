@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import LandingPage from './landingPage';
-import Phytochor from './phytochor';
+import ProjectLeft from './project-left';
 import ProjectRight from './project-right';
 import About from './about';
 import Connect from './connect';
 
 import styles from './styles/index.module.css';
-
+import {phytochorContent, content} from './project-content';
 
 export default function Home() {
 
@@ -36,8 +36,8 @@ export default function Home() {
           </ul>
         </nav>
         <LandingPage />
-        <Phytochor />
-        <ProjectRight />
+        <ProjectLeft content={phytochorContent}/>
+        <ProjectRight content={content}/>
         <About />
         <Connect />
       </div>
