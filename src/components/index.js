@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import LandingPage from './landingPage';
 import Phytochor from './phytochor';
+import ProjectRight from './project-right';
 import About from './about';
 import Connect from './connect';
 
@@ -17,8 +18,8 @@ export default class Home extends React.Component {
         <nav>
           <ul>
             <li>
-              <a href="#projects">
-                Projects
+              <a href="#connect">
+                Connect
               </a>
             </li>
 
@@ -29,14 +30,15 @@ export default class Home extends React.Component {
             </li>
 
             <li>
-              <a href="#connect">
-                Connect
+              <a href="#projects">
+                Projects
               </a>
             </li>
           </ul>
         </nav>
         <LandingPage />
         <Phytochor />
+        <ProjectRight />
         <About />
         <Connect />
       </div>
