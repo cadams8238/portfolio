@@ -1,0 +1,45 @@
+nav li {
+    float: right;
+    /* color: #e9cbb6; */
+    font-family : "museo sans", sans-serif;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+  color: #e9cbb6;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 450px) {
+    nav li {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    nav li {
+        font-size : 18px;
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    nav li {
+        font-size : 22px;
+        margin-top: 20px;
+        margin-right: 65px;
+    }
+}
