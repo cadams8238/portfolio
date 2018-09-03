@@ -26,7 +26,7 @@ export default function ProjectRight(props) {
         </a>
         <a href={props.content.links.code}>
           <Button label="See Code"
-            className={[styles.button, styles.buttonLinks].join(' ')}
+            className={styles.button}
           />
         </a>
         <p className={styles.roles}>{props.content.stack}</p>

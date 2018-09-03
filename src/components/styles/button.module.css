@@ -8,4 +8,14 @@
     letter-spacing : 2.4px;
     color : #130E13;
     text-transform: uppercase;
+    transition: all .1s;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.button:focus {
+  outline-color: #E66F50;
 }
