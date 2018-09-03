@@ -214,9 +214,10 @@
   }
 
   .projectBackground {
-    width: 1000px;
-    height: 1000px;
+    margin-top: 80px;
+    width: 900px;
+    height: 900px;
     top: -15%;
-    right: -280px;
+    right: -250px;
   }
 }
