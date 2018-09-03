@@ -18,10 +18,12 @@ export default function About() {
                 <div className={[styles.col, styles.allText].join(' ')}>
                     <h2 className={styles.header}>About Me</h2>
                     <p className={styles.desc}>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                        quis nostrud exerci tation ullamcorper suscipit
+                      I’m a self-motivated creator driven by curiosity with a passion for
+                      learning new skills and helping others. Being naturally inquisitive
+                      means I’m always looking for a new challenge to hurdle or new skill to
+                      learn. When I’m not coding or designing, I’m outside exploring or
+                      living that lizard life next to a river soaking up some elusive PNW
+                      Vitamin D.
                     </p>
                     <div className={styles.underline}></div>
                 </div>

@@ -2,43 +2,58 @@ const phytochorContent = {
   title: 'Phytochor',
   img: {
     src: require('../images/projects_phytochor-screenshots.svg'),
-    alt: "phytochor screenshots"
+    alt: "Phytochor project screenshots"
   },
-  description: `Lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit, sed diam nonummy nibh
-    euismod tincidunt ut laoreet dolore magna
-    aliquam erat volutpat. Ut wisi enim ad minim
-    veniam, quis nostrud exerci tation ullamcorper
-    suscipit`,
+  description: `Phytochor lets you know when to water
+  your garden based on the weather. Weather data is
+  based off the zip code provided by the user and
+  fetched from Open Weather Map's API. Users can
+  create multiple gardens at their will.`,
   links: {
     app: 'https://garden-client.herokuapp.com/',
     code: 'https://github.com/cadams8238/Garden-app_client'
   },
-  stack: 'React, Redux, etc'
+  stack: `React, Redux, CSS Modules, HTML, JavaScript, Node, Express, MongoDB, Mongoose, Mocha/Chai`
 };
 
-const content = {
-  title: 'Phytochor',
+const bingoContent = {
+  title: 'B Movie Bingo',
   img: {
-    src: require('../images/projects_phytochor-screenshots.svg'),
-    alt: "phytochor screenshots"
+    src: require('../images/bmovie.svg'),
+    alt: "B movie bingo project screenshots"
   },
-  description: `Lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit, sed diam nonummy nibh
-    euismod tincidunt ut laoreet dolore magna
-    aliquam erat volutpat. Ut wisi enim ad minim
-    veniam, quis nostrud exerci tation ullamcorper
-    suscipit`,
+  description: `Make watching B Movies more
+  enjoyable with B Movie Bingo. Plug in a B Movie
+  and watch with your friends. Look out for
+  popular B Movie cliches and mark them off
+  on your card when you see them in action!`,
   links: {
-    app: 'https://garden-client.herokuapp.com/',
-    code: 'https://github.com/cadams8238/Garden-app_client'
+    app: 'https://modest-euler-8d4601.netlify.com/',
+    code: 'https://github.com/cadams8238/b-movie-bingo'
   },
-  stack: 'My roles:  Fullstack Developer, Illustrator'
+  stack: 'Vue, CSS, HTML'
 };
 
+const emojiContent = {
+  title: 'Learn Emoji',
+  img: {
+    src: require('../images/emoji.svg'),
+    alt: "Learn Emoji project screenshots"
+  },
+  description: `Can't find the right words to say?
+  Use Emojis instead! Using a spaced repetition algorithm,
+  this app improves your emoji vocabulary so that you
+  can write less and say more!`,
+  links: {
+    app: 'https://spacedrep-client.herokuapp.com/',
+    code: 'https://github.com/thinkful-ei21/courtney-james-spacedRepitition-client'
+  },
+  stack: 'React, Redux, CSS Modules, HTML, JavaScript, Node, Express, MongoDB, Mongoose'
+};
 
 
 module.exports = {
   phytochorContent,
-  content
+  bingoContent,
+  emojiContent
 }

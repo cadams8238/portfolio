@@ -29,7 +29,7 @@ export default function ProjectRight(props) {
             className={styles.button}
           />
         </a>
-        <p className={styles.roles}>{props.content.stack}</p>
+        <p className={styles.roles}>Tech Stack: {props.content.stack}</p>
       </section>
     </div>
   );
