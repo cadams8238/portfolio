@@ -6,7 +6,9 @@ import Button from './button';
 export default function ProjectLeft(props) {
 
     return (
-      <div className={styles.backgroundImage}>
+      <div className={styles.backgroundImage}
+        id={props.hashId ? props.hashId : ''}
+      >
         <div className={styles.projectBackground}></div>
         <img className={styles.projectPhoto}
           src={props.content.img.src}

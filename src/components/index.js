@@ -36,7 +36,7 @@ export default function Home() {
           </ul>
         </nav>
         <LandingPage />
-        <ProjectLeft content={phytochorContent}/>
+        <ProjectLeft hashId="projects" content={phytochorContent}/>
         <ProjectRight content={content}/>
         <About />
         <Connect />
