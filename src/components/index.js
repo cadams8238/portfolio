@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Scrollchor from 'react-scrollchor';
 
 import LandingPage from './landingPage';
 import ProjectLeft from './project-left';
@@ -17,21 +18,27 @@ export default function Home() {
         <nav>
           <ul>
             <li>
-              <a href="#connect">
-                Connect
-              </a>
+              <Scrollchor to="#connect" animate={{duration: 800}}>
+                <a href="#connect">
+                  Connect
+                </a>
+              </Scrollchor>
             </li>
 
             <li>
-              <a href="#about">
-                About
-              </a>
+              <Scrollchor to="#about" animate={{duration: 600}}>
+                <a href="#about">
+                  About
+                </a>
+              </Scrollchor>
             </li>
 
             <li>
-              <a href="#projects">
-                Projects
-              </a>
+              <Scrollchor to="#projects">
+                <a href="#projects">
+                  Projects
+                </a>
+              </Scrollchor>
             </li>
           </ul>
         </nav>

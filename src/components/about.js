@@ -13,8 +13,8 @@ import game from '../images/interests_game.svg';
 export default function About() {
 
     return (
-        <div className={styles.backgroundImage}>
-            <section className={styles.flexGridContent} id="about">
+        <div className={styles.backgroundImage} id="about">
+            <section className={styles.flexGridContent}>
                 <div className={[styles.col, styles.allText].join(' ')}>
                     <h2 className={styles.header}>About Me</h2>
                     <p className={styles.desc}>
