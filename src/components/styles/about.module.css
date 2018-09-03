@@ -1,6 +1,6 @@
 .backgroundImage {
     /* background: url("../../images/about.svg") no-repeat top; */
-    height: 110vh;
+    /* height: 110vh; */
     background-size: cover;
 }
 
@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 450px) {
     .backgroundImage {
-        height: 170vh;
+        /* height: 170vh; */
     }
 
     .flexGridContent {
@@ -170,7 +170,7 @@
 
 @media screen and (min-width: 451px) {
     .backgroundImage {
-        height: 195vh;
+        /* height: 195vh; */
     }
 
     .flexGridContent {
@@ -233,7 +233,7 @@
 
 @media screen and (min-width: 600px) {
     .backgroundImage {
-        height: 215vh;
+        /* height: 215vh; */
     }
 
     .allText {
@@ -285,7 +285,7 @@
 
 @media screen and (min-width: 900px) {
     .backgroundImage {
-        height: 110vh;
+        /* height: 110vh; */
     }
 
     .flexGridContent {
