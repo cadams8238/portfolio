@@ -46,10 +46,6 @@
         background-size: contain;
     }
 
-    .firstHeading {
-        /* padding-top: 350px; */
-    }
-
     .heading {
         font-size: 72px;
     }
@@ -57,10 +53,6 @@
     .allHeaderText h2:last-child {
         margin-bottom: 40px;
     }
-
-    /* .icons {
-        width: 80%;
-    } */
 
     .iconImg {
         width: 80px;
@@ -88,124 +80,110 @@
 @media screen and (min-width: 451px) {
     .backgroundImage {
         background: url("../../images/mobile-connect.svg") no-repeat top;
-        height: 150vh;
+        height: 70vh;
         background-size: cover;
     }
 
-    .firstHeading {
-        padding-top: 540px;
-    }
-
     .heading {
-        font-size: 90px;
+        font-size: 72px;
     }
 
     .allHeaderText h2:last-child {
-        margin-bottom: 50px;
-    }
-
-    .icons {
-        width: 80%;
+        margin-bottom: 40px;
     }
 
     .iconImg {
-        width: 93px;
-        height: 93px;
-    }
-
-    .linkedin {
         width: 80px;
         height: 80px;
     }
 
+    .linkedin {
+        width: 70px;
+        height: 70px;
+    }
+
     .supportingText p {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .supportingText p:first-child {
-        margin-top: 50px;
+        margin-top: 40px;
+    }
+
+    .supportingText p:last-child {
+        margin-bottom: 40px;
     }
 }
 
 @media screen and (min-width: 600px) {
-    .backgroundImage {
-        height: 165vh;
-    }
-
-    .firstHeading {
-        padding-top: 560px;
+    .backgroundImage,
+    .flexContainer {
+        height: 100vh;
     }
 
     .heading {
-        font-size: 105px;
+      font-size: 105px;
     }
 
     .allHeaderText h2:last-child {
-        margin-bottom: 80px;
-    }
-
-    .icons {
-        width: 70%;
+      margin-bottom: 65px;
     }
 
     .iconImg {
-        width: 120px;
-        height: 120px;
+      width: 120px;
+      height: 120px;
     }
 
     .linkedin {
-        width: 100px;
-        height: 100px;
+      width: 100px;
+      height: 100px;
     }
 
     .supportingText p {
-        font-size: 26px;
+      font-size: 26px;
     }
 
     .supportingText p:first-child {
-        margin-top: 80px;
+      margin-top: 65px;
     }
 }
 
 @media screen and (min-width: 900px) {
     .backgroundImage {
-        background: url("../../images/connect.svg") no-repeat top;
-        height: 110vh;
-        background-size: cover;
+      background: url("../../images/connect.svg") no-repeat top;
+      height: 110vh;
+      background-size: cover;
+      overflow-y: hidden;
     }
 
-    .firstHeading {
-        padding-top: 220px;
+    .flexContainer div:first-child {
+      width: 50vw;
     }
 
     .heading {
-        font-size: 105px;
+      font-size: 105px;
     }
 
     .allHeaderText h2:last-child {
-        margin-bottom: 75px;
-    }
-
-    .icons {
-        width: 60%;
+      margin-bottom: 75px;
     }
 
     .iconImg {
-        width: 135px;
-        height: 135px;
+      width: 135px;
+      height: 135px;
     }
 
     .linkedin {
-        width: 120px;
-        height: 120px;
+      width: 120px;
+      height: 120px;
     }
 
     .supportingText p {
-        font-size: 30px;
+      font-size: 30px;
     }
 
     .supportingText p:first-child {
-        margin-top: 75px;
+      margin-top: 75px;
     }
 
     /* lower left */
@@ -216,7 +194,7 @@
       background-color: #336969;
       position: absolute;
       top: 18%;
-      left: -80px;
+      left: -2%;
       mix-blend-mode: screen;
     }
 
@@ -227,12 +205,12 @@
       border-radius: 50%;
       background-color: #537f73;
       position: absolute;
-      top: 12%;
-      left: 4%;
+      top: 11%;
+      left: 8%;
       mix-blend-mode: screen;
     }
 
-    /* upper right */
+    /* lower right */
     .circle3 {
       width: 115px;
       height: 115px;
@@ -240,73 +218,53 @@
       background-color: #336969;
       position: absolute;
       /* top: -50px; */
-      right: 2%;
+      right: -1%;
       mix-blend-mode: screen;
     }
 
-    /* lower right */
+    /* upper right */
     .circle4 {
       width: 160px;
       height: 160px;
       border-radius: 50%;
       background-color: #537f73;
       position: absolute;
-      bottom: 3%;
-      right: 7%;
+      bottom: 2%;
+      right: 3%;
       mix-blend-mode: screen;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .firstHeading {
-        padding-top: 200px;
-    }
-
     .heading {
-        font-size: 120px;
+      font-size: 120px;
     }
 
     .allHeaderText h2:last-child {
-        margin-bottom: 70px;
-    }
-
-    .icons {
-        width: 50%;
+      margin-bottom: 70px;
     }
 
     .iconImg {
-        width: 150px;
-        height: 150px;
+      width: 150px;
+      height: 150px;
     }
 
     .linkedin {
-        width: 135px;
-        height: 135px;
+      width: 135px;
+      height: 135px;
     }
 
     .supportingText p {
-        font-size: 30px;
+      font-size: 30px;
     }
 
     .supportingText p:first-child {
-        margin-top: 70px;
+      margin-top: 70px;
     }
 }
 
 @media screen and (min-width: 1400px) {
-  .firstHeading {
-      padding-top: 280px;
-  }
-
-  .icons {
-      width: 40%;
-  }
-
-  .allHeaderText h2:last-child {
-      margin-bottom: 90px;
-  }
-
-  .supportingText p:first-child {
-      margin-top: 90px;
+  .flexContainer div:first-child {
+    width: 40vw;
   }
 }
