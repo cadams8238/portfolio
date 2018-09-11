@@ -50,7 +50,6 @@
   }
 
   .projectBackground {
-    /* margin-top: 25px; */
     width: 100vw;
     height: 260px;
     z-index: -1;
@@ -76,11 +75,6 @@
 }
 
 @media screen and (min-width: 451px) {
-
-  /* .backgroundImage {
-    height: 120vh;
-  } */
-
   .projectPhoto {
     width: 50%;
     text-align: center;
@@ -149,65 +143,47 @@
 }
 
 @media screen and (min-width: 900px) {
+  .flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+
   .projectPhoto {
-    position: absolute;
     width: 40%;
-    max-width: 500px;
-    top: 7%;
-    left: -50px;
+    max-width: 400px;
+    margin-top: -75px;
   }
 
   .projectBackground {
     width: 800px;
     height: 800px;
     border-radius: 50%;
-    top: -12%;
+    top: -10px;
     left: -270px;
   }
 
   .allText {
-      width: 40%;
-      position: absolute;
-      top: 10%;
-      left: 50%;
+    width: 40%;
+    margin-top: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .backgroundImage {
-    height: 100vh;
-  }
-
   .projectPhoto {
-    top: 2%;
-    left: -5%;
+    max-width: 430px;
   }
 
   .projectBackground {
-    top: -22%;
-    left: -280px;
-  }
-
-  .allText {
-      top: 10%;
+    left: -220px;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .backgroundImage {
-    height: 100vh;
-  }
-
-  .projectPhoto {
-    top: 10%;
-    left: 5%;
-  }
-
   .projectBackground {
-    margin-top: 80px;
     width: 900px;
     height: 900px;
-    top: -15%;
-    left: -250px;
+    top: -8%;
   }
 }
