@@ -1,12 +1,11 @@
 nav li {
-    float: right;
-    /* color: #e9cbb6; */
-    font-family : "museo sans", sans-serif;
-    font-weight: 500;
+  float: right;
+  font-family : "museo sans", sans-serif;
+  font-weight: 500;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
@@ -23,23 +22,31 @@ a:hover {
 
 
 @media screen and (max-width: 450px) {
-    nav li {
-        margin-right: 15px;
-    }
+  nav li {
+    margin-right: 15px;
+  }
 }
 
 @media screen and (min-width: 451px) {
-    nav li {
-        font-size : 18px;
-        margin-top: 15px;
-        margin-right: 25px;
-    }
+  nav li {
+    font-size : 18px;
+    margin-top: 15px;
+    margin-right: 25px;
+  }
 }
 
 @media screen and (min-width: 900px) {
-    nav li {
-        font-size : 22px;
-        margin-top: 20px;
-        margin-right: 65px;
-    }
+  nav li {
+    font-size : 22px;
+    margin-top: 20px;
+    margin-right: 65px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  nav li {
+    font-size : 28px;
+    margin-top: 25px;
+    margin-right: 65px;
+  }
 }
