@@ -231,34 +231,81 @@ header p {
 }
 
 @media screen and (min-width: 1200px) {
-  .hello {
-      left: 38%;
-      top: 21%;
+  .flexContainer {
+    margin-top: 60px;
   }
 
-  .myNameIs {
-      left: 38%;
-      top: 27.5%;
+  .circle1 {
+    width: 185px;
+    height: 185px;
+    top: 8%;
+    left: 22%;
   }
 
-  .nameAndDesc {
-      left: 30%;
+  .circle2 {
+    width: 225px;
+    height: 225px;
+  }
+
+  .circle3 {
+    width: 125px;
+    height: 125px;
+  }
+
+  .circle4 {
+    width: 150px;
+    height: 150px;
+    top: 70%;
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 2000px) {
+  .background {
+    background-size: contain;
+  }
+
   .hello {
-      left: 41%;
-      top: 26.5%;
+    font-size : 100px;
+    padding-left: 200px;
   }
 
   .myNameIs {
-      left: 41%;
-      top: 31%;
+    font-size : 45px;
+    padding-left: 200px;
   }
 
-  .nameAndDesc {
-      left: 35%;
-      top: 32%;
+  .nameHeading {
+    font-size : 230px;
+  }
+
+  .description {
+    font-size : 50px;
+  }
+
+  .firstDesc {
+    padding-top: 120px;
+  }
+
+  .circle1 {
+    width: 250px;
+    height: 250px;
+    top: 8%;
+    left: 22%;
+  }
+
+  .circle2 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .circle3 {
+    width: 175px;
+    height: 175px;
+  }
+
+  .circle4 {
+    width: 200px;
+    height: 200px;
+    top: 70%;
   }
 }
