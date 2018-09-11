@@ -1,7 +1,6 @@
 .backgroundImage {
-    /* height: 110vh; */
-    /* background-size: cover; */
-    position: relative;
+  position: relative;
+  min-height: 100vh;
 }
 
 .projectBackground {
@@ -10,18 +9,18 @@
 }
 
 .title {
-    font-family : "museo", serif;
-    letter-spacing : -2.52px;
-    color : #E66F50;
-    margin-bottom: 5px;
+  font-family : "museo", serif;
+  letter-spacing : -2.52px;
+  color : #E66F50;
+  margin-bottom: 5px;
 }
 
 .description {
-    font-family : "museo sans", sans-serif;
-    font-weight: 300;
-    letter-spacing : -0.84px;
-    color : #E9CBB6;
-    margin-bottom: 50px;
+  font-family : "museo sans", sans-serif;
+  font-weight: 300;
+  letter-spacing : -0.84px;
+  color : #E9CBB6;
+  margin-bottom: 50px;
 }
 
 .button {
@@ -33,35 +32,34 @@
 }
 
 .roles {
-    font-family : "museo sans", sans-serif;
-    font-style : italic;
-    font-weight: 500;
-    letter-spacing : -0.84px;
-    color : #E66F50;
-    margin-top: 75px;
+  font-family : "museo sans", sans-serif;
+  font-style : italic;
+  font-weight: 500;
+  letter-spacing : -0.84px;
+  color : #E66F50;
+  margin-top: 75px;
 }
 
 @media screen and (max-width: 450px) {
-
   .projectPhoto {
     width: 60%;
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   .projectBackground {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 100vw;
     height: 260px;
     z-index: -1;
   }
 
   .allText {
-    padding-top: 15px;
     width: 80%;
-    margin: 0 auto;
+    margin: 45px auto;
+    margin-top: 75px;
   }
 
   .title {
@@ -79,20 +77,20 @@
 
 @media screen and (min-width: 451px) {
 
-  .backgroundImage {
+  /* .backgroundImage {
     height: 120vh;
-  }
+  } */
 
   .projectPhoto {
     width: 50%;
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 160px;
+    padding-top: 60px;
   }
 
   .projectBackground {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 100vw;
     height: 320px;
     z-index: -1;
@@ -100,8 +98,8 @@
 
   .allText {
     width: 80%;
-    margin: 0 auto;
-    padding-top: 30px;
+    margin: 45px auto;
+    margin-top: 90px;
   }
 
   .title {
@@ -109,26 +107,21 @@
   }
 
   .description {
-    font-size : 19px;
+    font-size : 20px;
   }
 
   .roles {
-    font-size : 19px;
+    font-size : 20px;
   }
 }
 
 @media screen and (min-width: 600px) {
-
-  .backgroundImage {
-    height: 140vh;
-  }
-
   .projectPhoto {
     width: 50%;
+    max-width: 325px;
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 140px;
   }
 
   .projectBackground {
@@ -139,25 +132,23 @@
 
   .allText {
     width: 60%;
-    padding-left: 40px;
-    padding-top: 40px;
+    margin-top: 100px;
   }
 
   .title {
-      font-size: 72px;
+    font-size: 72px;
   }
 
   .description {
-      font-size: 20px;
+    font-size: 22px;
   }
 
   .roles {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 @media screen and (min-width: 900px) {
-
   .projectPhoto {
     position: absolute;
     width: 40%;
