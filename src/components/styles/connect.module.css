@@ -1,74 +1,53 @@
-/* .backgroundImage {
-    background: url("../../images/connect.svg") no-repeat top;
-    height: 110vh;
-    background-size: cover;
-} */
-
-/* .firstHeading {
-    padding-top: 210px;
-} */
-
 .backgroundImage {
   position: relative;
 }
 
-.heading {
-    font-family : "museo", serif;
-    /* font-size : 100px; */
-    line-height : 64px;
-    letter-spacing : -3.5px;
-    color : #E66F50;
-    margin: 0;
-    line-height: .7;
-    text-align: center;
+.flexContainer {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* align-content: baseline; */
 }
 
-/* .allHeaderText h2:last-child {
-    margin-bottom: 70px;
-} */
+.heading {
+  font-family : "museo", serif;
+  line-height : 64px;
+  letter-spacing : -3.5px;
+  color : #E66F50;
+  margin: 0;
+  line-height: .7;
+  text-align: center;
+}
 
 .icons {
-    /* width: 50%; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
-
-/* .iconImg {
-    width: 150px;
-    height: 150px;
-} */
-
-/* .linkedin {
-    width: 135px;
-    height: 135px;
-} */
 
 .supportingText p {
     font-family: "museo", serif;
     font-style : italic;
     font-weight: 500;
-    /* font-size : 28px; */
     color : #F39F53;
     margin: 0;
     text-align: center;
 }
 
-/* .supportingText p:first-child {
-    margin-top: 75px;
-} */
-
-
 @media screen and (max-width: 450px) {
     .backgroundImage {
-        background: url("../../images/mobile-connect.svg") no-repeat top;
-        height: 100vh;
-        background-size: cover;
+        background: url("../../images/mobile-connect.svg") no-repeat bottom;
+        height: 70vh;
+        background-size: contain;
     }
 
     .firstHeading {
-        padding-top: 350px;
+        /* padding-top: 350px; */
     }
 
     .heading {
@@ -79,9 +58,9 @@
         margin-bottom: 40px;
     }
 
-    .icons {
+    /* .icons {
         width: 80%;
-    }
+    } */
 
     .iconImg {
         width: 80px;
@@ -99,6 +78,10 @@
 
     .supportingText p:first-child {
         margin-top: 40px;
+    }
+
+    .supportingText p:last-child {
+        margin-bottom: 40px;
     }
 }
 
