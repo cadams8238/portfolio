@@ -46,10 +46,11 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 60px;
   }
 
   .projectBackground {
+    margin-top: 25px;
     width: 100vw;
     height: 260px;
     z-index: -1;

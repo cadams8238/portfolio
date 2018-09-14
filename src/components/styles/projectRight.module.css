@@ -2,6 +2,7 @@
     /* height: 110vh; */
     /* background-size: cover; */
     position: relative;
+    min-height: 100vh;
 }
 
 .projectBackground {
@@ -42,13 +43,12 @@
 }
 
 @media screen and (max-width: 450px) {
-
   .projectPhoto {
     width: 60%;
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 60px;
   }
 
   .projectBackground {
@@ -59,9 +59,9 @@
   }
 
   .allText {
-    padding-top: 15px;
     width: 80%;
-    margin: 0 auto;
+    margin: 45px auto;
+    margin-top: 75px;
   }
 
   .title {
@@ -78,21 +78,21 @@
 }
 
 @media screen and (min-width: 451px) {
-
+/*
   .backgroundImage {
     height: 120vh;
-  }
+  } */
 
   .projectPhoto {
     width: 50%;
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 160px;
+    padding-top: 60px;
   }
 
   .projectBackground {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 100vw;
     height: 320px;
     z-index: -1;
@@ -100,8 +100,8 @@
 
   .allText {
     width: 80%;
-    margin: 0 auto;
-    padding-top: 30px;
+    margin: 45px auto;
+    margin-top: 90px;
   }
 
   .title {
@@ -109,26 +109,27 @@
   }
 
   .description {
-    font-size : 19px;
+    font-size : 20px;
   }
 
   .roles {
-    font-size : 19px;
+    font-size : 20px;
   }
 }
 
 @media screen and (min-width: 600px) {
-
+/*
   .backgroundImage {
     height: 140vh;
-  }
+  } */
 
   .projectPhoto {
     width: 50%;
+    max-width: 325px;
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 140px;
+    /* padding-top: 140px; */
   }
 
   .projectBackground {
@@ -139,8 +140,8 @@
 
   .allText {
     width: 60%;
-    padding-left: 40px;
-    padding-top: 40px;
+    /* padding-left: 40px; */
+    margin-top: 100px;
   }
 
   .title {
@@ -148,75 +149,84 @@
   }
 
   .description {
-      font-size: 20px;
+      font-size: 22px;
   }
 
   .roles {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 @media screen and (min-width: 900px) {
+  .flexContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
 
   .projectPhoto {
-    position: absolute;
+    /* position: absolute; */
     width: 40%;
-    max-width: 500px;
-    top: 7%;
-    right: -50px;
+    max-width: 400px;
+    margin-top: -75px;
+
+    /* top: 7%;
+    right: -50px; */
   }
 
   .projectBackground {
     width: 800px;
     height: 800px;
     border-radius: 50%;
-    top: -12%;
+    top: -10px;
     right: -270px;
   }
 
   .allText {
     width: 40%;
-    position: absolute;
-    top: 10%;
-    right: 50%;
+    margin-top: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .backgroundImage {
+  /* .backgroundImage {
     height: 100vh;
-  }
+  } */
 
   .projectPhoto {
-    top: 2%;
-    right: -5%;
+    max-width: 430px;
+
+    /* top: 2%;
+    right: -5%; */
   }
 
   .projectBackground {
-    top: -22%;
-    right: -280px;
+    /* top: -22%; */
+    right: -220px;
   }
 
-  .allText {
+  /* .allText {
       top: 10%;
-  }
+  } */
 }
 
 @media screen and (min-width: 1400px) {
-  .backgroundImage {
+  /* .backgroundImage {
     height: 100vh;
-  }
+  } */
 
-  .projectPhoto {
+  /* .projectPhoto {
     top: 10%;
     right: 5%;
-  }
+  } */
 
   .projectBackground {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: 900px;
     height: 900px;
-    top: -15%;
-    right: -250px;
+    top: -8%;
+    /* right: -250px; */
   }
 }
