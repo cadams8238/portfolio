@@ -21,9 +21,14 @@ export default function About() {
                       I’m a self-motivated creator driven by curiosity with a passion for
                       learning new skills and helping others. Being naturally inquisitive
                       means I’m always looking for a new challenge to hurdle or new skill to
-                      learn. When I’m not coding or designing, I’m outside exploring or
+                      learn. My skills would shine best in a Front End Developer position
+                      where I can merge my passions for good design and user experience. I'm
+                      at my best collaborating alongside a close-knit team that fosters open
+                      communication.
+
+                      {/* When I’m not coding or designing, I’m outside exploring or
                       living that lizard life next to a river soaking up some elusive PNW
-                      Vitamin D.
+                      Vitamin D. */}
                     </p>
                     <div className={styles.underline}></div>
                 </div>
