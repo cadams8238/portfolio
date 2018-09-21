@@ -9,7 +9,7 @@ import About from './about';
 import Connect from './connect';
 
 import styles from './styles/index.module.css';
-import {phytochorContent, bingoContent, emojiContent} from './project-content';
+import {phytochorContent, bingoContent, emojiContent, financeContent} from './project-content';
 
 export default function Home() {
 
@@ -43,9 +43,10 @@ export default function Home() {
           </ul>
         </nav>
         <LandingPage />
-        <ProjectLeft hashId="projects" content={phytochorContent}/>
+        <ProjectLeft hashId="projects" content={financeContent}/>
         <ProjectRight content={bingoContent}/>
-        <ProjectLeft content={emojiContent}/>
+        <ProjectLeft content={phytochorContent}/>
+        <ProjectRight content={emojiContent}/>
         <About />
         <Connect />
       </div>
