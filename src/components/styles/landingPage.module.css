@@ -51,10 +51,11 @@ header p {
 
 .description {
   font-family : "museo sans", sans-serif;
-  letter-spacing : -1.23px;
+  letter-spacing : -.5px;
   color : #E9CBB6;
   margin: 0;
   line-height: 1;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 450px) {
@@ -81,7 +82,7 @@ header p {
     }
 
     .description {
-      font-size : 19px;
+      font-size : 15px;
     }
 
     .firstDesc {
@@ -115,7 +116,7 @@ header p {
     }
 
     .description {
-      font-size : 21px;
+      font-size : 19px;
     }
 
     .firstDesc {
@@ -149,7 +150,8 @@ header p {
     }
 
     .description {
-      font-size : 26px;
+      font-size : 21px;
+      margin-left: 6%;
     }
 
 }
@@ -174,11 +176,11 @@ header p {
     }
 
     .description {
-      font-size : 30px;
+      font-size : 23px;
     }
 
     .firstDesc {
-      padding-top: 75px;
+      padding-top: 55px;
     }
 
     /* upper left */
